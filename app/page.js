@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Landing from "./components/Landing";
-import Spiral from "./components/Spiral";
+import Schedule from "./components/Schedule";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Landing />
+      <Schedule />
     </div>
   );
 }
