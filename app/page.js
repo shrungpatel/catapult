@@ -3,6 +3,7 @@ import Landing from "./components/Landing";
 import Schedule from "./components/Schedule";
 import FAQ from "./components/FAQ";
 import About from "./components/About";
+import HorizontalLines from "./components/Lines";
 import SpiralToLines from "./components/MorphingSpiral";
 
 export default function Home() {
