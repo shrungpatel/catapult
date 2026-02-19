@@ -1,14 +1,16 @@
 @import "tailwindcss";
 
-body {
-  background: #151c43;
-  font-family: var(--font-raleway), sans-serif;
-}
+@layer base{
+    body {
+    background: #151c43;
+    font-family: var(--font-raleway), sans-serif;
+    }
 
-* {
-  cursor: none;
-}
+    * {
+    cursor: none;
+    }
 
-a, button, [role="button"], input, select, textarea, label {
-  cursor: pointer;
+    a, button, [role="button"], input, select, textarea, label {
+    cursor: pointer;
+    }
 }
